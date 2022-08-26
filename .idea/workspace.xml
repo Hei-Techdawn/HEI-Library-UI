@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa8a7161-6342-4a13-8471-9d5ea94c0d7f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/3DBoxLoading/3DBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/3DBoxLoading/Styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/SimpleModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/Type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/SimpleLogin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/SPInputMini.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/SimplePagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables/SimpleTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Utils/LSH.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Utils/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LiquideText/LiquidText.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LiquideText/LiquidTextType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DFLUmnOCmm4YqMYfCQL5epSUb1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/std21052/Documents/React-tsx/Bourses/bourse&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/std21052/Documents/React-tsx/Bourses/bourse/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.25041735&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/std21052/Documents/React-tsx/Bourses/bourse/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Pages/Query" />
+      <recent name="$PROJECT_DIR$/src/Pages" />
+      <recent name="$PROJECT_DIR$/src/Pages/Components" />
+      <recent name="$PROJECT_DIR$/src/Pages/CocktailsTools" />
+      <recent name="$PROJECT_DIR$/src/Page/Dashboard" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa8a7161-6342-4a13-8471-9d5ea94c0d7f" name="Changes" comment="" />
+      <created>1660289917755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660289917755</updated>
+      <workItem from="1660289921293" duration="22681000" />
+      <workItem from="1660321820653" duration="24839000" />
+      <workItem from="1660359013739" duration="13672000" />
+      <workItem from="1660376873584" duration="15700000" />
+      <workItem from="1660455486185" duration="90000" />
+      <workItem from="1660990092460" duration="25026000" />
+      <workItem from="1661053387508" duration="599000" />
+      <workItem from="1661073644162" duration="18629000" />
+      <workItem from="1661096635481" duration="28026000" />
+      <workItem from="1661145063275" duration="4000" />
+      <workItem from="1661151366060" duration="1686000" />
+      <workItem from="1661185495090" duration="3245000" />
+      <workItem from="1661229606174" duration="9441000" />
+      <workItem from="1661242384504" duration="1700000" />
+      <workItem from="1661250326446" duration="333000" />
+      <workItem from="1661275795446" duration="5890000" />
+      <workItem from="1661313396687" duration="13248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
