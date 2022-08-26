@@ -1,0 +1,28 @@
+.simplePagination > * > li {
+    cursor: pointer;
+}
+
+.simplePagination {
+    margin: .5rem;
+    position: absolute;
+    right: 0;
+    transition: all .5s;
+    display: flex;
+    height: 2.5rem;
+    align-items: start;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.SPInput {
+    width: 4rem !important;
+}
+
+.SPInputForm > * {
+    height: 2.4rem;
+}
+
+.SPInputForm {
+    width: 20%;
+    transform: translateX(1rem);
+}

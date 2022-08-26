@@ -1,0 +1,43 @@
+.simpleTable-table{
+    margin: 0;
+    padding: 0;
+}
+
+.simpleTable-table> *> tr{
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.simpleTable-table > * tr > * {
+    text-indent: 1rem;
+}
+
+.simpleTable-table> thead > tr{
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.simpleTable-table> tbody > tr {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: background-color .5s;
+}
+
+
+.simpleTable-table> tbody > tr > i {
+    color: rgba(0,0,0,0.6);
+    transition: all .5s;
+}
+
+.simpleTable-table> tbody > tr:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+.simpleTable-table> tbody > tr:hover i  {
+    color: black;
+    font-size: 20px;
+    filter: drop-shadow(20px 20px 20px black) !important;
+}
+
+.simpleTable-table-container{
+    position: relative;
+    width: 45rem;
+}
