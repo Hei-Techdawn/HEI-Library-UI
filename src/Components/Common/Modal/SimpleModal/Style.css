@@ -5,13 +5,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
 }
 
 .simpleModal-bg{
     background: rgba(0, 0, 0, 0.5);
     transition: top 1s, opacity 1s;
     top: 100%;
+    z-index: 5000;
 }
 
 .simpleModal{
@@ -24,6 +24,7 @@
     border-radius: 5px;
     background: white !important;
     transition: top 1s;
+    z-index: 5001;
 }
 
 .simpleModal--quit-button{

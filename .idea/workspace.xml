@@ -2,21 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa8a7161-6342-4a13-8471-9d5ea94c0d7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Common/ListByRank/ListByRank.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Common/ListByRank/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Parser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Menu/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/SideBar/SbLabel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/SideBar/SideBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/SideBar/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/SideBar/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Snackbar/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Manager/BookManagement/BookManagement.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Manager/BookManagement/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/useToggle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/type.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SimpleTable/SimpleTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SimpleTable/SimpleTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SimpleTable/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SimpleTable/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SimpleTable/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SimpleTable/Types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Common/BorrowingHistory/BorrowingHistory.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/SimpleModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/SimpleModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/Type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/Type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/Utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Modal/SimpleModal/Utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Snackbar/Snackbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Snackbar/Snackbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Snackbar/SnackbarInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Snackbar/SnackbarInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Common/ListByRank/ListByRank.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Common/ListByRank/ListByRank.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Common/ListByRank/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Common/ListByRank/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Providers/Context/ContextProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/Context/ContextProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Providers/Context/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/Context/Types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Providers/Data/DataProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/Data/DataProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Providers/Data/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/Data/Types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Providers/Data/Utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/Data/Utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Parser.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +111,8 @@
       <workItem from="1661250326446" duration="333000" />
       <workItem from="1661275795446" duration="5890000" />
       <workItem from="1661313396687" duration="13248000" />
-      <workItem from="1661497542137" duration="10157000" />
+      <workItem from="1661497542137" duration="10568000" />
+      <workItem from="1661532649205" duration="19238000" />
     </task>
     <servers />
   </component>

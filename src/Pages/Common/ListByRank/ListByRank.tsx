@@ -16,17 +16,9 @@ export const ListByRank: FC = () => {
     }, []);
 
     return (
-        <div className='container'>
-            <div className='container'>
-                <h1 className='display-6'>Historique d'emprunt</h1>
-            </div>
-            <div className='tab-container container pr d-flex justify-content-center flex-column align-items-center'>
-                {data !== null && (
-                    <SimpleTable className='lbr-simpleTable' data={Parser.listByRank(data)} />
-                )}
-                <div className='container pr w-100'>
-                    <SimplePagination currentPage={2} lastPage={5} changePage={(e) => {}} />
-                </div>
+        <div className='row mt-2'>
+            <div className='tab-container container'>
+
             </div>
         </div>
     );

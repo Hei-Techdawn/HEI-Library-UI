@@ -11,7 +11,7 @@ export type TCategory = {
 
 export type TBook = {
     id?: number;
-    titre?: string;
+    title?: string;
     author?: TAuthor;
     category?: TCategory;
     pageNumber?: number;

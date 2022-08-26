@@ -1,0 +1,40 @@
+.bm-container > table > thead > tr{
+    background: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.bm-container button{
+    margin-inline: .3rem;
+}
+
+.bm-container td,
+.bm-container th{
+    width: min-content;
+    height: min-content;
+}
+
+.bm-container > table > tbody > tr{
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.bm-container > table > tbody > tr:hover{
+    background: rgba(0,0,0,0.2);
+}
+
+.bm-container> table > tbody > tr > td > i{
+    transition: .2s;
+}
+
+.bm-container> table > tbody > tr > td > i:hover {
+    transform: scale(1.5);
+}
+
+.bm-container> table > tbody > tr > td > button {
+    height: 2rem;
+    line-height: 0rem;
+}
+
+.button-container{
+    display: flex;
+}

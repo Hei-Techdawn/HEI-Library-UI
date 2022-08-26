@@ -6,6 +6,10 @@
 
 .tab-container{
     width: 70vw!important;
+    height: 85vh;
+    overdflow: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
 }
 
 .lbr-simpleTable tr {

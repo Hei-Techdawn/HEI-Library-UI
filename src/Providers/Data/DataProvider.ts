@@ -1,6 +1,8 @@
 import { TAuth, TBook } from './Types';
 import { Query } from './Utils';
 
+
+
 export class DataProvider<T> {
     private readonly endpoint: string;
     private readonly auth: TAuth;
@@ -15,7 +17,7 @@ export class DataProvider<T> {
     }
 
     async getAll(page: number): Promise<T[]> {
-        return await Query.get<T[]>(this.endpoint, { auth: this.auth, params: {page: page} });
+        return await Query.get<T[]>(this.endpoint, { auth: this.auth, params: {page: page, size: 10} });
     }
 
     async getOne(id: number): Promise<T> {

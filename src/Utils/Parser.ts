@@ -10,7 +10,7 @@ export class Parser {
         data.forEach((e, k) => {
             result.push({
                 "Rang": k + 1,
-                "Titre": e.titre || '',
+                "Titre": e.title || '',
                 "Autheur": e.author?.pseudo?.split(" ")[0] || '',
                 "Catégorie": e.category?.name || '',
                 "Nombre de page": e.pageNumber || 0,
