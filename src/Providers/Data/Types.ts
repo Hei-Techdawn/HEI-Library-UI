@@ -24,7 +24,7 @@ export type OneDateBorrowed = {
     book?: TBook[];
 };
 
-export type borrowingHistory = OneDateBorrowed[];
+export type TBorrowingHistory = OneDateBorrowed[];
 
 export type TAuth = {
     username: string;

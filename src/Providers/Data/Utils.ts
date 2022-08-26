@@ -4,7 +4,7 @@ import { AxiosRequestConfig } from 'axios';
 export class Query {
     constructor() {}
 
-    static get = async <T>(endpoint: string, config: AxiosRequestConfig): Promise<T> =>
+    static get = <T>(endpoint: string, config: AxiosRequestConfig): Promise<T> =>
         axios
             .get(`http://localhost:8080${endpoint}`, config)
             .then((res) => res.data)

@@ -9,5 +9,4 @@ export type TableTools = {
     className?: string;
     headerOnClick?: (header: string) => void;
     elementOnClick?: (data: SimpleObject) => void;
-    pagination: ReactNode;
 };

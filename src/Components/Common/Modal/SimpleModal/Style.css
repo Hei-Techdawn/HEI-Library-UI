@@ -1,0 +1,42 @@
+.simpleModal-container,
+.simpleModal-bg{
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.simpleModal-bg{
+    background: rgba(0, 0, 0, 0.5);
+    transition: top 1s, opacity 1s;
+    top: 100%;
+}
+
+.simpleModal{
+    width: 40vw;
+    height: 60vh;
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background: white !important;
+    transition: top 1s;
+}
+
+.simpleModal--quit-button{
+    font-size: 20px;
+    position: absolute;
+    right: .2rem;
+    top: -0.3rem;
+    color: red;
+    cursor: pointer;
+    transition: transform .2s
+}
+
+.simpleModal--quit-button:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 5px red);
+}

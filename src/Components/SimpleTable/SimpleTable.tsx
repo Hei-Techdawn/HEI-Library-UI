@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Style.css';
 
 export const SimpleTable: FC<TableTools> = (props) => {
-    const { className, data, headerOnClick, elementOnClick, pagination } = props;
+    const { className, data, headerOnClick, elementOnClick } = props;
     const headers = Object.keys(data[0]);
     const thClick = headerOnClick ? headerOnClick : (e: string) => {};
     const trClick = elementOnClick ? elementOnClick : (data: SimpleObject) => {};
@@ -15,7 +15,6 @@ export const SimpleTable: FC<TableTools> = (props) => {
                     <tr>
                         {headers.map((e, k) => (
                             <th
-                                style={{ width: e.length + 'rem' }}
                                 onClick={() => {
                                     thClick(e);
                                 }}
@@ -32,7 +31,6 @@ export const SimpleTable: FC<TableTools> = (props) => {
                         <tr key={dataIndex + 'trBody'}>
                             {headers.map((inHeader, headIndex) => (
                                 <td
-                                    style={{ width: inHeader.length + 5 + 'rem' }}
                                     key={inHeader + dataIndex + headIndex + 'tdBody'}
                                 >
                                     {inData[inHeader]}
@@ -48,7 +46,6 @@ export const SimpleTable: FC<TableTools> = (props) => {
                     ))}
                 </tbody>
             </table>
-            {pagination}
         </div>
     );
 };

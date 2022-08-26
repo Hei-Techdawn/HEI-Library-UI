@@ -1,0 +1,56 @@
+.sb__Success {
+    background: #66bb6a;
+}
+
+.sb__Error {
+    background: #f44336;
+}
+
+.sb__Message {
+    background: #e3f2fd;
+}
+
+.snackbar {
+    border-radius: 0.3rem;
+    opacity: 0;
+}
+
+.sb-open {
+    transform: translate(-50%, 0);
+    animation: toDown 1s forwards;
+}
+
+@keyframes toDown {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-50%, 100%);
+        opacity: 1;
+    }
+}
+
+.sb--icon {
+    transform: translateY(5%);
+    transition: scale 0.1s;
+}
+
+.sb--icon:hover {
+    scale: 1.1;
+}
+
+.sb--icon-container {
+    height: 3.5rem;
+    transition: all 1s;
+    border-radius: 0 0.3rem 0.3rem 0;
+    cursor: pointer;
+}
+
+.sb--icon-container:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.sb--label {
+    flex-basis: 60%;
+}

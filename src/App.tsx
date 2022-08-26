@@ -1,10 +1,10 @@
 import {FC} from 'react';
-import {BorrowingHistory} from "./Pages/Common/BorrowingHistory/BorrowingHistory";
+import {ListByRank} from "./Pages/Common/ListByRank/ListByRank";
 
 export const App: FC = () => {
     return (
         <div>
-            <BorrowingHistory/>
+            <ListByRank/>
         </div>
     );
 };
