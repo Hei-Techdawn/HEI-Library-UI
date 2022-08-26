@@ -2,32 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa8a7161-6342-4a13-8471-9d5ea94c0d7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/3DBoxLoading/3DBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/3DBoxLoading/Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/SimpleModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/Type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/SimpleModal/Utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/SimpleLogin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/Types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimpleLogin/Utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/SPInputMini.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/SimplePagination.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/Types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SimplePagination/Utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Tables/SimpleTable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Utils/LSH.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Utils/Types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Common/BorrowingHistory/BorrowingHistory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Login/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Providers/Context/ContextProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Providers/Context/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Providers/Data/DataProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Providers/Data/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Providers/Data/Utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LiquideText/LiquidText.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LiquideText/LiquidTextType.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +92,7 @@
       <workItem from="1661250326446" duration="333000" />
       <workItem from="1661275795446" duration="5890000" />
       <workItem from="1661313396687" duration="13248000" />
+      <workItem from="1661497542137" duration="5394000" />
     </task>
     <servers />
   </component>
