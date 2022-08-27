@@ -47,28 +47,36 @@ export const SimpleLogin: FC<TSimpleLoginProps> = (props) => {
             <form onSubmit={handleSubmit}>
                 <p className='display-6'>{title}</p>
                 <div className='input-group mb-3'>
-                    <input
-                        onBlur={() => handleBlur('username')}
-                        onFocus={() => handleFocus('username')}
-                        value={state.username}
-                        name='username'
-                        type='text'
-                        className={'form-control ' + style.username}
-                        placeholder={labels[0]}
-                        onChange={handleChange}
-                    />
+                    <label >
+                        Identifiant : 
+                        <input
+                            onBlur={() => handleBlur('username')}
+                            onFocus={() => handleFocus('username')}
+                            value={state.username}
+                            name='username'
+                            type='text'
+                            className={'inpt form-control ' + style.username}
+                            placeholder={labels[0]}
+                            onChange={handleChange}
+                        />
+                    </label>
+                    
                 </div>
                 <div className='input-group mb-3'>
-                    <input
-                        onBlur={() => handleBlur('password')}
-                        onFocus={() => handleFocus('password')}
-                        className={'form-control ' + style.password}
-                        onChange={handleChange}
-                        value={state.password}
-                        name='password'
-                        type='password'
-                        placeholder={labels[1]}
-                    />
+                    <label>
+                        Mot de passe : 
+                        <input
+                            onBlur={() => handleBlur('password')}
+                            onFocus={() => handleFocus('password')}
+                            className={'inpt form-control ' + style.password}
+                            onChange={handleChange}
+                            value={state.password}
+                            name='password'
+                            type='password'
+                            placeholder={labels[1]}
+                        />
+                    </label>
+                    
                 </div>
                 <div className='input-group mb-3'>
                     <button type='submit' className='btn btn-outline-dark'>
