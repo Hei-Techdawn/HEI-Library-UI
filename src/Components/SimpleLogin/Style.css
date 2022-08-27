@@ -1,11 +1,23 @@
-.login-input-error{
-    border: 1px solid rgba(255, 0, 0, 0.5);
-    box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.5),
-        -1px -1px 5px rgba(255, 0, 0, 0.5) !important;
+form{
+    border: 1px solid white;
+    width: 30vw;
+    height: 45vh;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30vh;
+    background-color: white;
+    
+    padding: 2em 2em;
 }
-
-.login-input-success{
-    border: 1px solid rgba(34, 139, 34, 0.5);
-    box-shadow: 1px 1px 5px  rgba(34, 139, 34, 0.5),
-    -1px -1px 5px  rgba(34, 139, 34, 0.5) !important;
+.inpt{
+    width: 25vw;
+}
+button{
+    margin-left: 8vw;
+    color: white !important;
+    border: white !important;
+    background-color: rgb(67, 67, 199) !important;
+}
+body{
+    background-image: url(../SimpleLogin/photo-1507842217343-583bb7270b66.jpg);
 }
