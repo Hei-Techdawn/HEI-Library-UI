@@ -1,10 +1,24 @@
 import axios from 'axios';
 import { AxiosRequestConfig } from 'axios';
+import {TPaginationList} from "./Types";
 
 export class Query {
     constructor() {}
 
-    static get = <T>(endpoint: string, config: AxiosRequestConfig): Promise<T> =>
+    static get = <T>(endpoint: string, page: number): Promise<TPaginationList<T>> =>
+        axios
+            .get(`http://localhost:8080${endpoint}`, {
+                params: { page: page, size: 10 },
+            })
+            .then((res) => {
+                console.log(res.data)
+                return res.data;
+            })
+            .catch((err) => {
+                throw new Error(err.message);
+            });
+
+    static getOne = <T>(endpoint: string, config: AxiosRequestConfig): Promise<T> =>
         axios
             .get(`http://localhost:8080${endpoint}`, config)
             .then((res) => res.data)

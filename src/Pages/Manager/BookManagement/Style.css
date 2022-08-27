@@ -7,12 +7,6 @@
     margin-inline: .3rem;
 }
 
-.bm-container td,
-.bm-container th{
-    width: min-content;
-    height: min-content;
-}
-
 .bm-container > table > tbody > tr{
     transition: all .2s;
     cursor: pointer;
@@ -22,19 +16,26 @@
     background: rgba(0,0,0,0.2);
 }
 
-.bm-container> table > tbody > tr > td > i{
-    transition: .2s;
-}
-
-.bm-container> table > tbody > tr > td > i:hover {
-    transform: scale(1.5);
-}
-
 .bm-container> table > tbody > tr > td > button {
     height: 2rem;
     line-height: 0rem;
 }
 
-.button-container{
+.bm-container .button-container{
     display: flex;
+    justify-content: space-around;
+}
+
+.bm-container .button-container > i{
+    margin-left: 2rem;
+}
+
+
+.bm-container .button-container > i{
+    transition: .2s;
+}
+
+.bm-container .button-container > i:hover {
+    font-size: 18px;
+    transform: scale(1.3);
 }

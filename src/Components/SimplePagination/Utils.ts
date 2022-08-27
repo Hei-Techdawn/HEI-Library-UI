@@ -24,5 +24,5 @@ export const usePagination = (currentPage: number, lastPage: number) => {
         setState({ lastPage , currentPage: newPage });
     };
 
-    return {page: state, setPage};
+    return {page: state, setPage, setLastPage: (a: number)=> setState(e=> ({...e, lastPage: a}))};
 };

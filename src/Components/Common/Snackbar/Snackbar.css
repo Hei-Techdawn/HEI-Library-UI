@@ -12,28 +12,32 @@
 
 .snackbar {
     border-radius: 0.3rem;
-    opacity: 0;
+    opacity: 1;
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    width: 30vw;
 }
 
 .sb-open {
-    transform: translate(-50%, 0);
     animation: toDown 1s forwards;
+    display: flex;
 }
 
 @keyframes toDown {
     0% {
-        transform: translate(-50%, 0);
+        transform: translate(0, 30%);
         opacity: 0;
     }
     100% {
-        transform: translate(-50%, 100%);
+        transform: translate(0, 5%);
         opacity: 1;
     }
 }
 
 .sb--icon {
-    transform: translateY(5%);
     transition: scale 0.1s;
+    transform: translateY(10%);
 }
 
 .sb--icon:hover {
@@ -41,7 +45,10 @@
 }
 
 .sb--icon-container {
-    height: 3.5rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
     transition: all 1s;
     border-radius: 0 0.3rem 0.3rem 0;
     cursor: pointer;
@@ -53,4 +60,8 @@
 
 .sb--label {
     flex-basis: 60%;
+}
+
+.sb-text{
+    margin-top: .8rem;
 }

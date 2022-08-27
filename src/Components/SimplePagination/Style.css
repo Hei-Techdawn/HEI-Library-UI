@@ -23,6 +23,6 @@
 }
 
 .SPInputForm {
-    width: 20%;
+    width: 10rem !important;
     transform: translateX(1rem);
 }

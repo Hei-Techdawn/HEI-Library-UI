@@ -10,12 +10,12 @@ export const Snackbar: FC<ISnackbarProps> = (props) => {
             style={{ display: !open ? 'none' : 'inherit' }}
             className={'snackbar g-ai-center sb__' + type + ' ' + className + (open && ' sb-open')}
         >
-            <div className="g-w-100 g-ai-center g-jc-between">
-                <div className="g-ml-1">
+            <div className="pr d-flex justify-content-between">
+                <div className="col-10 sb-text p-1">
                     <p>{label}</p>
                 </div>
-                <div onClick={close} className="g-pr sb--icon-container g-col-2 g-ai-center g-jc-center">
-                    <p className="g-center-absolute-real g-title bi bi-x"></p>
+                <div onClick={close} className="d-flex justify-content-center align-items-center sb--icon-container col-2">
+                    <p className="sb--icon fs-2 bi bi-x"></p>
                 </div>
             </div>
         </div>
