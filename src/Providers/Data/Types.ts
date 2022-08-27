@@ -30,3 +30,9 @@ export type TAuth = {
     username: string;
     password: string;
 }
+
+export type TPaginationList<T> = {
+    currentPage: number;
+    lastPage: number;
+    data: T;
+}

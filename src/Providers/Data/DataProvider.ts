@@ -1,4 +1,4 @@
-import { TAuth, TBook } from './Types';
+import {TAuth, TBook, TPaginationList} from './Types';
 import { Query } from './Utils';
 
 
@@ -16,12 +16,12 @@ export class DataProvider<T> {
         return await Query.edit<T>(this.endpoint, id, element, { auth: this.auth });
     }
 
-    async getAll(page: number): Promise<T[]> {
-        return await Query.get<T[]>(this.endpoint, { auth: this.auth, params: {page: page, size: 10} });
+    async getAll(page: number): Promise<TPaginationList<T[]>> {
+        return await Query.get<T[]>(this.endpoint, page);
     }
 
     async getOne(id: number): Promise<T> {
-        return await Query.get<T>(`${this.endpoint}/${id}`, { auth: this.auth });
+        return await Query.getOne<T>(`${this.endpoint}/${id}`, { auth: this.auth });
     }
 
     async remove(id: number): Promise<string> {
