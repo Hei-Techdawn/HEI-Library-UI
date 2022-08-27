@@ -17,5 +17,5 @@ export const fr = [
 export const en = [
     `Username`,
     `Password`,
-    `Sign In`
+    `CONNEXION`
 ]
