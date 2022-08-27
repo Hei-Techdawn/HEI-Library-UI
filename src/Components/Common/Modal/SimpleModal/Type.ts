@@ -12,8 +12,7 @@ export type TStyle = {
     modal: CSSProperties;
 };
 
-
 export type TUseModal = {
     children?: ReactNode;
     state: boolean;
-}
+};

@@ -1,17 +1,19 @@
 import axios from 'axios';
 import { AxiosRequestConfig } from 'axios';
-import {TPaginationList} from "./Types";
+import { TPaginationList } from './Types';
+
+const url = 'https://4fe5-154-126-107-209.eu.ngrok.io';
 
 export class Query {
     constructor() {}
 
     static get = <T>(endpoint: string, page: number): Promise<TPaginationList<T>> =>
         axios
-            .get(`http://localhost:8080${endpoint}`, {
-                params: { page: page, size: 10 },
+            .get(url + endpoint, {
+                params: { page: page, size: -1 },
             })
             .then((res) => {
-                console.log(res.data)
+                console.log(res.data);
                 return res.data;
             })
             .catch((err) => {
@@ -20,16 +22,20 @@ export class Query {
 
     static getOne = <T>(endpoint: string, config: AxiosRequestConfig): Promise<T> =>
         axios
-            .get(`http://localhost:8080${endpoint}`, config)
+            .get(url + endpoint, config)
             .then((res) => res.data)
             .catch((err) => {
                 throw new Error(err.message);
             });
 
-    static post = async <T>(endpoint: string, data: T[], config: AxiosRequestConfig): Promise<T> =>
+    static post = async <T>(
+        endpoint: string,
+        data: T[],
+        config?: AxiosRequestConfig
+    ): Promise<string> =>
         axios
-            .post(`http://localhost:8080${endpoint}`, data, config)
-            .then((res) => res.data)
+            .post(url + endpoint, data, config)
+            .then((res) => 'finish')
             .catch((err) => {
                 throw new Error(err.message);
             });
@@ -40,7 +46,7 @@ export class Query {
         config: AxiosRequestConfig
     ): Promise<string> =>
         axios
-            .delete(`http://localhost:8080${endpoint}/${id}`, config)
+            .delete(`${url + endpoint}/${id}`, config)
             .then((res) => res.data)
             .catch((err) => {
                 throw new Error(err.message);
@@ -53,7 +59,7 @@ export class Query {
         config: AxiosRequestConfig
     ): Promise<T> =>
         axios
-            .patch(`http://localhost:8080${endpoint}/${id}`, config)
+            .patch(`${url + endpoint}/${id}`, config)
             .then((res) => res.data)
             .catch((err) => {
                 throw new Error(err.message);

@@ -9,7 +9,7 @@ export const SimpleTable: FC<TableTools> = (props) => {
     const thClick = headerOnClick ? headerOnClick : (e: string) => {};
     const trClick = elementOnClick ? elementOnClick : (data: SimpleObject) => {};
     return (
-        <div className={"simpleTable-table-container " + className}>
+        <div className={'simpleTable-table-container ' + className}>
             <table className='simpleTable-table'>
                 <thead>
                     <tr>
@@ -30,9 +30,7 @@ export const SimpleTable: FC<TableTools> = (props) => {
                     {data.map((inData, dataIndex) => (
                         <tr key={dataIndex + 'trBody'}>
                             {headers.map((inHeader, headIndex) => (
-                                <td
-                                    key={inHeader + dataIndex + headIndex + 'tdBody'}
-                                >
+                                <td key={inHeader + dataIndex + headIndex + 'tdBody'}>
                                     {inData[inHeader]}
                                 </td>
                             ))}

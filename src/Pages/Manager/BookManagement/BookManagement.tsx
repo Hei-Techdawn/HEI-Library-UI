@@ -16,7 +16,7 @@ export const BookManagement: FC = () => {
 
     const update = (page: number) => {
         provider.getAll(page).then((res) => {
-            setBooks(res.data.slice(0, 10));
+            setBooks(res.data);
             setLastPage(res.lastPage);
         });
     };
@@ -32,11 +32,11 @@ export const BookManagement: FC = () => {
 
     const changePage = async (e: number) => {
         await setPage(e)
-        update(page.currentPage);
+        update(e);
     }
 
     useEffect(() => {
-        update(2);
+        update(1);
     }, []);
 
     return (
@@ -61,12 +61,12 @@ export const BookManagement: FC = () => {
                                     <td>{e.id}</td>
                                     <td>{e.title}</td>
                                     <td>{e.category?.name}</td>
-                                    <td>{e.author?.name}</td>
+                                    <td>{e.author?.pseudo}</td>
                                     <td>{e.pageNumber}</td>
                                     <td>{e.status}</td>
                                     <td className='button-container'>
                                         <button className='btn btn-danger'>Rendre</button>
-                                        <button className='btn btn-secondary'>Emprunter</button>
+                                        <button className='btn btn-success'>Emprunter</button>
                                         <i
                                             onClick={()=> remove(e)}
                                             className='bi bi-trash-fill'

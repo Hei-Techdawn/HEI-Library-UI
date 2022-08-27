@@ -1,5 +1,7 @@
 export enum ESbType {
-    SUCCESS='Success', ERROR='Error', MESSAGE='Message'
+    SUCCESS = 'Success',
+    ERROR = 'Error',
+    MESSAGE = 'Message',
 }
 export interface ISnackbarProps {
     className?: string;

@@ -1,5 +1,5 @@
-import {CSSProperties, ReactNode, useState} from 'react';
-import {ModalProps, TUseModal} from './Type';
+import { CSSProperties, ReactNode, useState } from 'react';
+import { ModalProps, TUseModal } from './Type';
 
 export const closeModalStyle: CSSProperties = {
     top: '-100%',
@@ -21,16 +21,16 @@ export const openBGStyle = {
 
 export const modalInitialState: TUseModal = {
     children: undefined,
-    state: false
+    state: false,
 };
 
 export const useModal = () => {
     const [modal, setModal] = useState<TUseModal>(modalInitialState);
     const close = () => {
-        setModal(e=> ({...e, children: undefined, state: false}));
-    }
+        setModal((e) => ({ ...e, children: undefined, state: false }));
+    };
     const open = (children: ReactNode) => {
-        setModal(e=> ({...e, children, state: true, onClose: close}))
-    }
-    return {modal: {...modal, close}, open}
+        setModal((e) => ({ ...e, children, state: true, onClose: close }));
+    };
+    return { modal: { ...modal, close }, open };
 };

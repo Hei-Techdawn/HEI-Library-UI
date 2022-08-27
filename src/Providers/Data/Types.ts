@@ -1,6 +1,7 @@
 export type TAuthor = {
     id?: number;
-    name?: string;
+    lastName?: string;
+    firstName?: string;
     pseudo?: string;
 };
 

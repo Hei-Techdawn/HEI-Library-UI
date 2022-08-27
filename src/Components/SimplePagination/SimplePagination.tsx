@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { TSPProps } from './Types';
 import { paginationNumber, rangeOf } from './Utils';
 import './Style.css';
-import {SPInputMini} from "./SPInputMini";
+import { SPInputMini } from './SPInputMini';
 
 export const SimplePagination: FC<TSPProps> = (props) => {
     const { changePage, lastPage, currentPage } = props;
@@ -15,7 +15,7 @@ export const SimplePagination: FC<TSPProps> = (props) => {
 
     return (
         <nav className='simplePagination'>
-            <SPInputMini {...props}/>
+            <SPInputMini {...props} />
             <ul className='pagination'>
                 <li onClick={prev} className={'page-item ' + (first && 'disabled')}>
                     <p className='page-link'>

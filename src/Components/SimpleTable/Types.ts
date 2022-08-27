@@ -1,4 +1,4 @@
-import {ReactNode} from "react";
+import { ReactNode } from 'react';
 
 export type SimpleObject = {
     [p: string]: string | number | boolean;

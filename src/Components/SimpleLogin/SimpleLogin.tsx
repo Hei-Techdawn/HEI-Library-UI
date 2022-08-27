@@ -2,6 +2,7 @@ import { ChangeEvent, FC, FormEvent, useState } from 'react';
 import { TAuth, TSimpleLoginProps, TUP } from './Types';
 import { en, fr, verifyPassword, verifyUsername } from './Utils';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Style.css';
 
 export const SimpleLogin: FC<TSimpleLoginProps> = (props) => {
@@ -13,6 +14,8 @@ export const SimpleLogin: FC<TSimpleLoginProps> = (props) => {
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         if (verifyUsername(state.username) && verifyPassword(state.password)) {
+            localStorage.setItem('username', state.username);
+            localStorage.setItem('password', state.password);
             onSubmit(state.username, state.password);
         }
     };
@@ -44,31 +47,30 @@ export const SimpleLogin: FC<TSimpleLoginProps> = (props) => {
 
     return (
         <div className={className}>
-            <form onSubmit={handleSubmit}>
-                <p className='display-6'>{title}</p>
+            <form className='loginForm' onSubmit={handleSubmit}>
+                <h1 className='display-6'>{title}</h1>
                 <div className='input-group mb-3'>
-                    <label >
-                        Identifiant : 
+                    <label>
+                        Identifiant :
                         <input
                             onBlur={() => handleBlur('username')}
                             onFocus={() => handleFocus('username')}
                             value={state.username}
                             name='username'
                             type='text'
-                            className={'inpt form-control ' + style.username}
+                            className={'input form-control ' + style.username}
                             placeholder={labels[0]}
                             onChange={handleChange}
                         />
                     </label>
-                    
                 </div>
                 <div className='input-group mb-3'>
                     <label>
-                        Mot de passe : 
+                        Mot de passe :
                         <input
                             onBlur={() => handleBlur('password')}
                             onFocus={() => handleFocus('password')}
-                            className={'inpt form-control ' + style.password}
+                            className={'input form-control ' + style.password}
                             onChange={handleChange}
                             value={state.password}
                             name='password'
@@ -76,7 +78,6 @@ export const SimpleLogin: FC<TSimpleLoginProps> = (props) => {
                             placeholder={labels[1]}
                         />
                     </label>
-                    
                 </div>
                 <div className='input-group mb-3'>
                     <button type='submit' className='btn btn-outline-dark'>

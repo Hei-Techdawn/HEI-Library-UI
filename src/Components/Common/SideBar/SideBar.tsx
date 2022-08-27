@@ -1,9 +1,7 @@
 import { CSSProperties, FC, useEffect, useState } from 'react';
 import './style.css';
-import {Label} from "./SbLabel";
-import {TSideBar} from "./Types";
-
-
+import { Label } from './SbLabel';
+import { TSideBar } from './Types';
 
 export const SideBar: FC<TSideBar> = (props) => {
     const { state } = props;
@@ -18,6 +16,7 @@ export const SideBar: FC<TSideBar> = (props) => {
                 <Label {...props} label='Classement' icon='ranking-star' />
                 <Label {...props} label='Livres' icon='book' />
                 <Label {...props} label='Historique' icon='clock-rotate-left' />
+                <Label {...props} label='Ajout' icon='plus' />
             </div>
         </div>
     );

@@ -3,10 +3,10 @@
 }
 
 .simplePagination {
-    margin: .5rem;
+    margin: 0.5rem;
     position: absolute;
     right: 0;
-    transition: all .5s;
+    transition: all 0.5s;
     display: flex;
     height: 2.5rem;
     align-items: start;

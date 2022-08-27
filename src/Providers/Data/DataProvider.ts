@@ -7,9 +7,9 @@ export class DataProvider<T> {
     private readonly endpoint: string;
     private readonly auth: TAuth;
 
-    constructor(endpoint: string, auth: TAuth) {
+    constructor(endpoint: string, auth?: TAuth) {
         this.endpoint = endpoint;
-        this.auth = auth;
+        this.auth = auth || {username: "", password: ""};
     }
 
     async edit(id: number, element: T): Promise<T> {
